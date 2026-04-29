@@ -13,4 +13,4 @@ def route2():
 def route3():
     return "<h1>update is available: 1.5</h1>"
 
-app.run(port=5500,hosts="0.0.0.0",debug=True)
+app.run(port=5500,host="0.0.0.0",debug=True)
