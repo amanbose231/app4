@@ -7,10 +7,10 @@ def route1():
 
 @app.route('/version',methods=["GET"])
 def route2():
-    return "<h1>version is : 10.0v</h1>"
+    return "<h1>version is : 12.0v</h1>"
 
 @app.route('/update',methods=["GET"])
 def route3():
-    return "<h1>update is available: 1.5</h1>"
+    return "<h1>update is available: 3.5</h1>"
 
 app.run(port=5500,host="0.0.0.0",debug=True)
